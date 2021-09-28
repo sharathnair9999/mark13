@@ -17,6 +17,8 @@ body{
   padding: 2rem;
   text-align: center;
   top:0;
+  color:white;
+  font-size: 2rem;
 }
 
 #input-date{
