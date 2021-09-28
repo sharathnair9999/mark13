@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+  --primary-color:#34D399;
+  
+  --off-white:#F3F4F6;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.hero .hero-heading{
+ background-color: var(--primary-color);
+ border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  top:0;
+}
+
+#input-date{
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+#show-btn{
+  border: none;
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  color:white;
+  font-size: 2rem;
+  border-radius: 1em;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  
+}
+#show-btn:hover{
+  background-color: aquamarine;
+  color:black
+}
+
+
+p {
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
